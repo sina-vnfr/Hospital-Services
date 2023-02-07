@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="503.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AccountingController">
+   <children>
+      <ImageView fitHeight="586.0" fitWidth="954.0" layoutX="3.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Hospital-Hallway.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="checkbtn" layoutX="72.0" layoutY="179.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="170.0" text="Checkout" />
+      <Button fx:id="patientbtn" layoutX="72.0" layoutY="252.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="170.0" text="Patient" />
+      <Label layoutX="309.0" layoutY="472.0" text="provided by sina vanaeifar .2021" textFill="#4015ee" />
+      <Label layoutX="14.0" layoutY="14.0" text="Acounting" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="785.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="controller.PatientPageController">
+   <children>
+      <ImageView fitHeight="546.0" fitWidth="859.0" layoutX="-1.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Diesing-July-Feature_secondary.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nationalfild" layoutX="386.0" layoutY="151.0" promptText="national code" />
+      <PasswordField fx:id="passfild" layoutX="386.0" layoutY="206.0" promptText="password" />
+      <Label layoutX="307.0" layoutY="155.0" text="National Code:" textFill="#f8f7f7" />
+      <Label layoutX="333.0" layoutY="210.0" text="Password:" textFill="WHITE" />
+      <Button fx:id="enterbtn" layoutX="366.0" layoutY="269.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Enter" />
+      <Label layoutX="333.0" layoutY="307.0" prefHeight="17.0" prefWidth="138.0" />
+   </children>
+</AnchorPane>

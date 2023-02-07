@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="465.0" prefWidth="773.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="controller.NursepageController">
+   <children>
+      <ImageView fitHeight="465.0" fitWidth="803.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/170321_Canadian-Immigration-Options-for-Nurses-1200x720.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usernurs" layoutX="150.0" layoutY="146.0" prefHeight="25.0" prefWidth="160.0" promptText="username" />
+      <PasswordField fx:id="passnurs" layoutX="150.0" layoutY="200.0" prefHeight="25.0" prefWidth="160.0" promptText="password" />
+      <Label layoutX="95.0" layoutY="150.0" text="username:" />
+      <Label layoutX="96.0" layoutY="204.0" text="password:" />
+      <Label fx:id="errorlbl" layoutX="139.0" layoutY="294.0" prefHeight="17.0" prefWidth="147.0" />
+      <Button fx:id="enterbtn" layoutX="181.0" layoutY="245.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" text="Enter" />
+      <Label layoutX="170.0" layoutY="277.0" text="this page for nurses" />
+   </children>
+</AnchorPane>
